@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/home.css">
   <link rel="stylesheet" href="css/general.css">
   <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
   <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
@@ -16,8 +16,9 @@
   <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
     crossorigin="anonymous"></script> -->
-  
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"> -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
   <!-- <link
@@ -35,10 +36,10 @@
         <h2 class="logotipo">El Punto Vikendy</h2>
       </div>
       <nav>
-        <a href="#" class="activo">Inicio</a>
-        <a href="#">Sobre nosotros</a>
-        <a href="#">Menú</a>
-        <a href="#">Contacto</a>
+        <a href="index.html" class="activo">Inicio</a>
+        <a href="sobreNosotros.html">Sobre nosotros</a>
+        <a href="menu.html">Menú</a>
+        <a href="contacto.html">Contacto</a>
       </nav>
     </div>
   </header>
@@ -148,14 +149,14 @@
     </div>
   </main>
 
-  <section class="contenedor" aria-label="Sección de la ubicación">
+  <section class="alto-section contenedor" aria-label="Sección de la ubicación">
     <div class="titulo-seccion">
       <h3 class="titulo-seccion">Ubicación</h3>
     </div>
 
     <iframe
       src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d237.13023045520728!2d-94.38904245882856!3d18.02131940113805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1669230541779!5m2!1ses-419!2smx"
-      height="700px" class="centrado-horizontal mapa" allowfullscreen="" loading="lazy"
+      height="500px" class="centrado-horizontal mapa" allowfullscreen="" loading="lazy"
       referrerpolicy="no-referrer-when-downgrade"></iframe>
   </section>
 
@@ -186,12 +187,16 @@
   </section>
 
 
-  <section class="contenedor separacion-seccion" aria-label="Sección del video de presentacion">
+  <section class="alto-section contenedor separacion-seccion" aria-label="Sección del video de presentacion">
     <div class="titulo-seccion">
       <h3 class="titulo-seccion">Conoce más sobre nosotros</h3>
     </div>
 
-    <iframe class="video" height="615" src="https://www.youtube.com/embed/yodGx-ef8VY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="video-responsive">
+      <iframe src="https://www.youtube.com/embed/yodGx-ef8VY" title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
   </section>
 
 
@@ -224,7 +229,7 @@
     </div>
   </section>
 
-  
+
   <footer class="footer-clean">
     <div class="container">
       <div class="row justify-content-center">
@@ -254,6 +259,7 @@
           </ul>
         </div>
         <div class="col-lg-3 item social">
+          <a href="#"><i class="icon ion-social-whatsapp"></i></a>
           <a href="#"><i class="icon ion-social-facebook"></i></a>
           <a href="#"><i class="icon ion-social-instagram"></i></a>
           <p class="copyright">El Punto Vikendy © 2018</p>
@@ -261,14 +267,16 @@
       </div>
     </div>
   </footer>
-    
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.m -->
-      
-    <script src=" https://kit.fontawesome.com/6244c4e1d6.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="Js/main.js"></script>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.m -->
+
+  <script src=" https://kit.fontawesome.com/6244c4e1d6.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
 </body>
 
 

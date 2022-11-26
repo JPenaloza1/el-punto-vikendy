@@ -163,6 +163,7 @@ background:rgba(0,0,0, 0.9) ;
     width: 100%;
     border:0;
     padding: 2% 0;
+    max-height: 80%;
 }
 
 /*----------------TARJETAS-------------------------------*/
@@ -185,8 +186,24 @@ background:rgba(0,0,0, 0.9) ;
 
 
 /*-------------- VIDEO DE PRESENTACION -------------------*/
-.video {
-  width: 100%;
+
+.video-responsive {
+    overflow:hidden;
+    padding-bottom:400px; /* Adecua este valor para controlar la altura del video */
+    position:relative;
+    height:0;
+}
+
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height: 100%;
+    width:100%;
+    position:absolute;
+}
+
+.alto-section {
+    height: 100%;
 }
 
 
