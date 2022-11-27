@@ -21,6 +21,10 @@ header .contenedor{
     width: 10%;
 }
 
+.logotipo h2{
+  font-weight: bold;
+}
+
 header .logotipo{
     font-family: 'Signika Negative', sans-serif;
     font-weight: normal;
@@ -71,6 +75,7 @@ header nav a:hover, .activo{
   
   .footer-clean ul a:hover {
     opacity:1;
+    color: #e7b302;
   }
   
   .footer-clean .item.social {
@@ -107,6 +112,7 @@ header nav a:hover, .activo{
   
   .footer-clean .item.social > a:hover {
     opacity:0.9;
+    color:#e7b302
   }
   
   @media (max-width:991px) {
