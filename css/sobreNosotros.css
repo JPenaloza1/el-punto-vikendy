@@ -5,8 +5,10 @@
     margin: 20px auto;
 }
 
+
 .title-h3 {
     margin: 4% 0 1%;
+    margin-bottom: 3%;
 }
 
 .margin-padding-0 {
@@ -27,7 +29,7 @@
 }
 
 .border-radius {
-    border-radius: 8px;
+    border-radius: 4px;
 }
 
 
@@ -35,7 +37,7 @@
 .div-contenedor {
     margin: 0;
     padding: 0;
-    background: gray;
+   /* background: gray;*/
 }
 
 .div-between {
@@ -51,7 +53,7 @@
 }
 
 .div-text {
-    background: white;
+    background: rgb(255, 255, 255);
 }
 
 .div-flex-center {
@@ -92,21 +94,36 @@
     background: black;
 }
 
+.image-column-4 h4{
+    text-align: left;
+    font-size:large ;
+
+}
+.image-column-4 p{
+    font-size: small;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: justify;
+}
+
 .card-container {
     width: 13%;
-    background: gray;
+    background: rgb(0, 0, 0);
     border-radius: 8px;
     text-align: center;
     padding: 2%;
+    margin-bottom: 8%;
 }
 
 .h5-bold {
     font-weight: bold;
+    color: white;
     margin: 0;
 }
 
 .p-text {
     margin: 3% 0 0;
+    color: white;
 }
 
 
@@ -114,7 +131,6 @@
 /*----------- CARDs MENU ------------*/
 .card-container {
     width: 13%;
-    background: gray;
     border-radius: 8px;
     text-align: center;
     padding: 2%;
@@ -129,7 +145,7 @@
     margin: 3% 0 0;
 }
 
-.titulo-principal {
+.titulo-principal h3{
     font-size: 40px;
     text-align: center;
     margin: 4% 0;
@@ -139,7 +155,7 @@
 
 /*------------ REDES SOCIALES -----------*/
 .div-social-network {
-    background: gray;
+    background: black;
     padding: 4% 3%;
 }
 
@@ -161,7 +177,7 @@
 /*------------ UBICACION ------------*/
 .location-container {
     display: flex;
-    background: gray;
+    background: white;
     padding: 1%;
 }
 
@@ -171,10 +187,19 @@
 
 .location-information {
     width: 29%;
-    /* background: red; */
+    background-color: white;
+
 }
 
+/*
 .text-white-bg {
-    background: white;
+background-color: white;
+}*/
+
+.information-address p{
+    color: black;
 }
 
+.information-address h5{
+    color: black;
+}

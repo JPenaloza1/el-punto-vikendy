@@ -2,7 +2,7 @@
 /*------------ CARDS -------------*/
 .card-container {
     padding: 2%;
-    background: gray;
+   /* background: gray;*/
     border-radius: 8px;
     width: 13%;
     text-align: center;
