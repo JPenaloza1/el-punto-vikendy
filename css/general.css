@@ -1,5 +1,9 @@
 
 
+.none-decoration:hover {
+  text-decoration: none;
+}
+
 /*----------------------- Header -----------------*/
 
 header{
