@@ -6,7 +6,7 @@ https://jpenaloza1.github.io/el-punto-vikendy/sobreNosotros.html
 
 ## Descripción General
 
-Este repositorio contiene todo el código y elementos correspondientes a la página web del negocio local llamado "El punto Vikendy", esta página web será de carácter informativo con el objetivo de mostrar todos los servicios y productos que ofrece a través de la página Web. 
+Este repositorio contiene todo el código y elementos correspondientes a la página web del negocio local llamado "El punto Vikendy", esta página web será de carácter informativo con el objetivo de mostrar todos los servicios y productos que ofrece a través de la página Web. Para su instalación en un equipo local debe descargar el código fuente de este repositorio desde el botón de "code" > "download ZIP" y abrir cualquier .html con el navegador de tu preferencia.
 
 
 ## Funcionalidades del proyecto
@@ -23,7 +23,7 @@ Este repositorio contiene todo el código y elementos correspondientes a la pág
 - Lenguaje de estilos: CSS
 
 ## Integrantes del equipo
-- López Hernández Valeria Itzel
-- López Vásquez Victor
-- Morales García Ismael Eduardo 
-- Peñalosa Sánchez Jonathan Alexis 
+- López Hernández Valeria Itzel https://github.com/ValeriaItz
+- López Vásquez Victor https://github.com/VictorLpzV
+- Morales García Ismael Eduardo https://github.com/Ismael0209
+- Peñalosa Sánchez Jonathan Alexis https://github.com/JPenaloza1/
