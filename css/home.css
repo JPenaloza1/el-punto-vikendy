@@ -205,6 +205,7 @@ background:rgba(0,0,0, 0.9) ;
     height: 100%;
     width:100%;
     position:absolute;
+    border: 0;
 }
 
 .alto-section {
